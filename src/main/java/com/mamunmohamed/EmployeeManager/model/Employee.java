@@ -1,5 +1,8 @@
 package com.mamunmohamed.EmployeeManager.model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Employee {
     private Long id;
     private String name;
